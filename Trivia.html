@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <title>NBA Trivia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="bodyTrivia">
+        <header>
+            <h1>En que equipo juega actualmente este jugador?</h1>
+        </header>
+         <form class="text-center" action="#!">
+
+                <img id="lebron" src="lebron.jpg" width="400" height="280">
+            
+                <br><br><input type="text" id="Respuesta" size="50" placeholder="Respuesta"></input>
+                <br><br><script src="java.js"></script>
+                <br><p class="intentos" id="parrafo">Tienes 4 intentos</p>
+                <p class="intentos" id="pista"></p>
+                <button class="btn btn-info my-4" id="boton" type="button" onclick="validacion()">Responder</button>
+                
+                <br><br><a href="Index.html"> <button class="btn btn-info my-4" type="button">Volver</button></a>
+        </form>
+        
+    </body>
+</html>

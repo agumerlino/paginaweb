@@ -1,0 +1,64 @@
+
+nav{
+    background-color: rgb(199, 0, 0);
+    font-family: fantasy;
+    
+}
+h2{
+    background-color: rgb(0, 87, 218); text-align-last: center;
+    text-shadow: 1px 1px 1px red;
+    font-family: fantasy;
+}
+h1{
+    background-color: rgb(0, 87, 218); text-align-last: center;
+    text-shadow: 1px 1px 1px red;
+    font-family: fantasy;
+}
+p{
+    font-size:large;
+    font:Arial;
+
+}
+.intentos{
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-size: x-large;
+    font-family:fantasy;
+}
+table{font-size: x-large}
+.imagen{
+    background-size: 100%;
+}
+body{
+    background-image: url("piso-cancha-basquet-linea-modelo-fondo-madera_64749-1783.jpg");
+    background-size: cover;
+}
+.bodyRegis{
+    background-image: url("nba.jpg");
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    
+}
+.bodyTrivia{
+    background-image: url("triviaImagen.jpg");
+    background-size: cover;
+    
+}
+.egt{
+    text-align: center;
+    border: firebrick;
+    border-collapse: collapse;
+  width: 100%;
+  border: 4px solid black;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+    border: 2px solid black;
+    font-weight: bold;
+  }
+th{
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+    font-family:fantasy;
+}
